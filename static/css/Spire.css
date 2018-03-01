@@ -1,0 +1,62 @@
+body {
+    background: rgba(12, 8, 7, 0.82);
+    margin: auto;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body div h1 {
+    text-align: center;
+    color: #a83e3e;
+}
+body div .inputBox {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    min-width: 100%;
+    margin: 20px auto;
+    outline: #765958 solid 1px;
+    color: white;
+
+}
+
+thead {
+    outline: #765958 solid 1px;
+    /*padding: 5px;*/
+    /*margin: 5px;*/
+}
+
+tbody tr {
+    padding: 5px;
+    border-bottom: #765958 solid 1px;
+}
+
+tbody .cssTier {
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.cssEnergy {
+    text-align: center;
+}
+
+.cssPicture {
+    text-align: center;
+}
+
+.cssRarity {
+    text-align: center;
+}
+
+.cssType {
+    text-align: center;
+}
+
+.cssDescription {
+    width: 300px;
+    text-align: left;
+    text-wrap: inherit;
+}
