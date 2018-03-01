@@ -46,7 +46,6 @@ try:
         cardDescription = cardDescription[0].text
         x += 1
 
-
         csv_writer.writerow([cardName, cardPicture, cardRarity, cardType, cardEnergy, cardDescription])
 
 except Exception as e:
