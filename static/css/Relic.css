@@ -1,5 +1,5 @@
 body {
-    background: rgba(85, 42, 42, 0.95);
+    background: rgb(34, 29, 44);
     margin: auto;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -7,7 +7,7 @@ body {
 
 body div h1 {
     text-align: center;
-    color: #a83e3e;
+    color: rgb(145, 139, 155);
 }
 body div .inputBox {
     text-align: center;
@@ -17,20 +17,20 @@ table {
     width: 100%;
     min-width: 100%;
     margin: 20px auto;
-    outline: #765958 solid 1px;
+    outline: #9289e7 solid 1px;
     color: white;
 
 }
 
 thead {
-    outline: #765958 solid 1px;
+    outline: #aeaeec solid 1px;
     /*padding: 5px;*/
     /*margin: 5px;*/
 }
 
 tbody tr {
     padding: 5px;
-    border-bottom: #765958 solid 1px;
+    border-bottom: #babdff solid 1px;
 }
 
 tbody .cssTier {

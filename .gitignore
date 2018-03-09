@@ -1,2 +1,4 @@
 SpireHelperVENV/
 .idea/
+.pyc
+__pycache__/

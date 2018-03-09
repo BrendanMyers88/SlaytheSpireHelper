@@ -1,0 +1,83 @@
+body {
+    background: rgb(34, 29, 44);
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: rgb(145, 139, 155);
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: rgb(145, 139, 155);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+div {
+    text-align: center;
+    height: 200px;
+    color: white;
+}
+
+.container {
+    border-radius: 2px;
+    height: 200px;
+    color: white;
+}
+
+ul, li {
+    display: inline-block;
+    list-style-type: none;
+    height: 200px;
+    margin: 5px 5px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+li #relics {
+    background-color: #babdff;
+    color:white;
+}
+
+li #relics:hover {
+    background-color: #626389;
+    color:white;
+    border-color: #8e91c7;
+}
+
+li #ironclad:hover {
+    background-color: #890708;
+    color:white;
+}
+
+li #silent:hover {
+    background-color: #11650d;
+    color:white;
+}
+
+#ironclad {
+    padding-top: 87px;
+    height: 110px;
+    width: 100px;
+    background-image: url("https://vignette.wikia.nocookie.net/slay-the-spire/images/9/96/IroncladButton.png/revision/latest/scale-to-width-down/100?cb=20171205180907");
+}
+
+#silent {
+    padding-top: 87px;
+    height: 110px;
+    width: 100px;
+    background-image: url("https://vignette.wikia.nocookie.net/slay-the-spire/images/5/52/SilentButton.png/revision/latest/scale-to-width-down/100?cb=20171205181044");
+}
+
+#relics {
+    padding-top: 87px;
+    height: 110px;
+    width: 100px;
+    background-image: url("https://vignette.wikia.nocookie.net/slay-the-spire/images/1/1a/BurningBlood.png/revision/latest?cb=20171205185319");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center -25px;
+}
